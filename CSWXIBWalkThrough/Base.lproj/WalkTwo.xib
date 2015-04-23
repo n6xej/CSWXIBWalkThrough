@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WalkthroughPageViewController">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="point" keyPath="speed">
+                    <point key="value" x="1" y="0.0"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="point" keyPath="speedVariance">
+                    <point key="value" x="1.2" y="0.0"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="animationType">
+                    <integer key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="animateAlpha" value="NO"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="I7x-vm-klj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud1" translatesAutoresizingMaskIntoConstraints="NO" id="T2S-eL-sfY">
+                    <rect key="frame" x="66" y="131" width="64" height="35"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneScreen" translatesAutoresizingMaskIntoConstraints="NO" id="UWL-qF-j6X">
+                    <rect key="frame" x="219" y="404" width="163" height="196"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud1" translatesAutoresizingMaskIntoConstraints="NO" id="7aH-qb-8lp">
+                    <rect key="frame" x="180" y="158" width="64" height="35"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud3" translatesAutoresizingMaskIntoConstraints="NO" id="Gmt-FG-16Z">
+                    <rect key="frame" x="262" y="106" width="64" height="35"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud1" translatesAutoresizingMaskIntoConstraints="NO" id="uAr-bL-2Hv">
+                    <rect key="frame" x="343" y="82" width="64" height="35"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easily obtain parallax effect just modifying runtime attributes in IB" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1np-v6-P2J">
+                    <rect key="frame" x="173" y="291" width="254" height="85"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="254" id="XUp-yb-gqV"/>
+                        <constraint firstAttribute="height" constant="85" id="zHr-rC-Za5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parallax" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TB9-Fg-wQX">
+                    <rect key="frame" x="262" y="194" width="77" height="24"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud1" translatesAutoresizingMaskIntoConstraints="NO" id="xtJ-FS-ugf">
+                    <rect key="frame" x="336" y="20" width="64" height="35"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud1" translatesAutoresizingMaskIntoConstraints="NO" id="2j1-9o-hDg">
+                    <rect key="frame" x="32" y="58" width="64" height="35"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud3" translatesAutoresizingMaskIntoConstraints="NO" id="em7-Rh-paf">
+                    <rect key="frame" x="166" y="33" width="64" height="35"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.44996994410000002" blue="0.59837911109999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="TB9-Fg-wQX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="194" id="0tF-Mf-zVS"/>
+                <constraint firstAttribute="centerX" secondItem="UWL-qF-j6X" secondAttribute="centerX" id="6MH-mh-nVy"/>
+                <constraint firstAttribute="centerX" secondItem="UWL-qF-j6X" secondAttribute="centerX" id="Bt0-VP-vld"/>
+                <constraint firstAttribute="centerX" secondItem="1np-v6-P2J" secondAttribute="centerX" id="Kif-Bb-QGU"/>
+                <constraint firstAttribute="centerY" secondItem="1np-v6-P2J" secondAttribute="centerY" constant="-34" id="RkP-hH-h5L"/>
+                <constraint firstAttribute="bottom" secondItem="UWL-qF-j6X" secondAttribute="bottom" id="V8q-7U-QGZ"/>
+                <constraint firstAttribute="centerX" secondItem="TB9-Fg-wQX" secondAttribute="centerX" id="cr9-Hu-1Wy"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="cloud1" width="64" height="35"/>
+        <image name="cloud3" width="64" height="35"/>
+        <image name="iPhoneScreen" width="163" height="196"/>
+    </resources>
+</document>

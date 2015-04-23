@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomPageViewController">
+            <connections>
+                <outlet property="imageView" destination="omZ-Vp-c1Y" id="GjL-W3-1DI"/>
+                <outlet property="textLabel" destination="otR-7x-IZA" id="FGT-pi-XIG"/>
+                <outlet property="titleLabel" destination="jqc-jq-7SI" id="IOV-D9-CO2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ttc-x9-MIr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom Animations" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqc-jq-7SI">
+                    <rect key="frame" x="206" y="194" width="188" height="24"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This page receives offset information. Animate its subviews as you wish!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otR-7x-IZA">
+                    <rect key="frame" x="159" y="293" width="282" height="85"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="85" id="WrO-f5-euL"/>
+                        <constraint firstAttribute="width" constant="282" id="fhH-1n-oRI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="iPhoneScreen" translatesAutoresizingMaskIntoConstraints="NO" id="omZ-Vp-c1Y">
+                    <rect key="frame" x="219" y="404" width="163" height="196"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.39651343319999999" blue="0.3770228987" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="omZ-Vp-c1Y" secondAttribute="centerX" id="Dyk-mN-7ob"/>
+                <constraint firstAttribute="centerX" secondItem="otR-7x-IZA" secondAttribute="centerX" id="MgU-7P-vQS"/>
+                <constraint firstAttribute="bottom" secondItem="omZ-Vp-c1Y" secondAttribute="bottom" id="RfO-lT-aJR"/>
+                <constraint firstItem="jqc-jq-7SI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="194" id="Umd-PJ-bWx"/>
+                <constraint firstAttribute="centerX" secondItem="jqc-jq-7SI" secondAttribute="centerX" id="gGs-1S-T9u"/>
+                <constraint firstAttribute="centerY" secondItem="otR-7x-IZA" secondAttribute="centerY" constant="-35.5" id="p7b-uP-lBN"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="iPhoneScreen" width="163" height="196"/>
+    </resources>
+</document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" promptedForUpgradeToXcode5="NO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="3" id="snq-ZQ-fZB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <customObject id="3" customClass="AppDelegate">
+            <connections>
+                <outlet property="window" destination="2" id="7st-dH-kMd"/>
+            </connections>
+        </customObject>
+        <window clearsContextBeforeDrawing="NO" contentMode="scaleToFill" visibleAtLaunch="YES" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="rootViewController" destination="10" id="cHm-lq-dBZ"/>
+            </connections>
+            <point key="canvasLocation" x="387" y="390"/>
+        </window>
+        <viewController nibName="" wantsFullScreenLayout="YES" id="10" customClass="ViewController">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="I5y-IY-VMl"/>
+                <viewControllerLayoutGuide type="bottom" id="KYA-OA-bPy"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="nw4-qk-3Xs">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wp5-Go-XGo">
+                        <rect key="frame" x="94" y="269" width="132" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="Show Walkthrough">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="showWalkthrough:" destination="10" eventType="touchUpInside" id="wKX-a3-Uh8"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="1" green="0.45974587750000001" blue="0.3486001789" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="centerX" secondItem="Wp5-Go-XGo" secondAttribute="centerX" id="9EC-e3-Jhd"/>
+                    <constraint firstAttribute="centerY" secondItem="Wp5-Go-XGo" secondAttribute="centerY" id="s8K-27-R3f"/>
+                </constraints>
+            </view>
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <point key="canvasLocation" x="409" y="975"/>
+        </viewController>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
