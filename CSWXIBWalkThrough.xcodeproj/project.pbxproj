@@ -21,22 +21,6 @@
 		CE9F0AE91AE8B0DB001D3C0B /* WalkOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AEB1AE8B0DB001D3C0B /* WalkOne.xib */; };
 		CE9F0AEC1AE8B0E2001D3C0B /* WalkTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AEE1AE8B0E2001D3C0B /* WalkTwo.xib */; };
 		CE9F0AEF1AE8B10B001D3C0B /* WalkThroughViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AF11AE8B10B001D3C0B /* WalkThroughViewController.xib */; };
-		CE9F0B021AE8BA3B001D3C0B /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AF21AE8BA3B001D3C0B /* bg@2x.png */; };
-		CE9F0B031AE8BA3B001D3C0B /* cloud1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AF31AE8BA3B001D3C0B /* cloud1@2x.png */; };
-		CE9F0B041AE8BA3B001D3C0B /* cloud3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AF41AE8BA3B001D3C0B /* cloud3@2x.png */; };
-		CE9F0B051AE8BA3B001D3C0B /* img3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AF51AE8BA3B001D3C0B /* img3@2x.png */; };
-		CE9F0B061AE8BA3B001D3C0B /* iPhoneScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AF61AE8BA3B001D3C0B /* iPhoneScreen@2x.png */; };
-		CE9F0B071AE8BA3B001D3C0B /* jsq_messages_splash_47inch.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AF71AE8BA3B001D3C0B /* jsq_messages_splash_47inch.png */; };
-		CE9F0B081AE8BA3B001D3C0B /* jsq_messages_splash_55inch_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AF81AE8BA3B001D3C0B /* jsq_messages_splash_55inch_landscape.png */; };
-		CE9F0B091AE8BA3B001D3C0B /* jsq_messages_splash_55inch.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AF91AE8BA3B001D3C0B /* jsq_messages_splash_55inch.png */; };
-		CE9F0B0A1AE8BA3B001D3C0B /* jsq_messages_splash_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AFA1AE8BA3B001D3C0B /* jsq_messages_splash_ipad.png */; };
-		CE9F0B0B1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AFB1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x.png */; };
-		CE9F0B0C1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x~landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AFC1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x~landscape.png */; };
-		CE9F0B0D1AE8BA3B001D3C0B /* jsq_messages_splash_ipad~landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AFD1AE8BA3B001D3C0B /* jsq_messages_splash_ipad~landscape.png */; };
-		CE9F0B0E1AE8BA3B001D3C0B /* leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AFE1AE8BA3B001D3C0B /* leftarrow@2x.png */; };
-		CE9F0B0F1AE8BA3B001D3C0B /* rightarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0AFF1AE8BA3B001D3C0B /* rightarrow@2x.png */; };
-		CE9F0B101AE8BA3B001D3C0B /* slpash_iphone4inch.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0B001AE8BA3B001D3C0B /* slpash_iphone4inch.png */; };
-		CE9F0B111AE8BA3B001D3C0B /* splash_iphone35inch.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F0B011AE8BA3B001D3C0B /* splash_iphone35inch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,22 +45,6 @@
 		CE9F0AEA1AE8B0DB001D3C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/WalkOne.xib; sourceTree = "<group>"; };
 		CE9F0AED1AE8B0E2001D3C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/WalkTwo.xib; sourceTree = "<group>"; };
 		CE9F0AF01AE8B10B001D3C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/WalkThroughViewController.xib; sourceTree = "<group>"; };
-		CE9F0AF21AE8BA3B001D3C0B /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
-		CE9F0AF31AE8BA3B001D3C0B /* cloud1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud1@2x.png"; sourceTree = "<group>"; };
-		CE9F0AF41AE8BA3B001D3C0B /* cloud3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud3@2x.png"; sourceTree = "<group>"; };
-		CE9F0AF51AE8BA3B001D3C0B /* img3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img3@2x.png"; sourceTree = "<group>"; };
-		CE9F0AF61AE8BA3B001D3C0B /* iPhoneScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneScreen@2x.png"; sourceTree = "<group>"; };
-		CE9F0AF71AE8BA3B001D3C0B /* jsq_messages_splash_47inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsq_messages_splash_47inch.png; sourceTree = "<group>"; };
-		CE9F0AF81AE8BA3B001D3C0B /* jsq_messages_splash_55inch_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsq_messages_splash_55inch_landscape.png; sourceTree = "<group>"; };
-		CE9F0AF91AE8BA3B001D3C0B /* jsq_messages_splash_55inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsq_messages_splash_55inch.png; sourceTree = "<group>"; };
-		CE9F0AFA1AE8BA3B001D3C0B /* jsq_messages_splash_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsq_messages_splash_ipad.png; sourceTree = "<group>"; };
-		CE9F0AFB1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jsq_messages_splash_ipad@2x.png"; sourceTree = "<group>"; };
-		CE9F0AFC1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x~landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jsq_messages_splash_ipad@2x~landscape.png"; sourceTree = "<group>"; };
-		CE9F0AFD1AE8BA3B001D3C0B /* jsq_messages_splash_ipad~landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jsq_messages_splash_ipad~landscape.png"; sourceTree = "<group>"; };
-		CE9F0AFE1AE8BA3B001D3C0B /* leftarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftarrow@2x.png"; sourceTree = "<group>"; };
-		CE9F0AFF1AE8BA3B001D3C0B /* rightarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightarrow@2x.png"; sourceTree = "<group>"; };
-		CE9F0B001AE8BA3B001D3C0B /* slpash_iphone4inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slpash_iphone4inch.png; sourceTree = "<group>"; };
-		CE9F0B011AE8BA3B001D3C0B /* splash_iphone35inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_iphone35inch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,22 +77,6 @@
 		CE4D7F4F1AE8A612005A6DAE /* CSWXIBWalkThrough */ = {
 			isa = PBXGroup;
 			children = (
-				CE9F0AF21AE8BA3B001D3C0B /* bg@2x.png */,
-				CE9F0AF31AE8BA3B001D3C0B /* cloud1@2x.png */,
-				CE9F0AF41AE8BA3B001D3C0B /* cloud3@2x.png */,
-				CE9F0AF51AE8BA3B001D3C0B /* img3@2x.png */,
-				CE9F0AF61AE8BA3B001D3C0B /* iPhoneScreen@2x.png */,
-				CE9F0AF71AE8BA3B001D3C0B /* jsq_messages_splash_47inch.png */,
-				CE9F0AF81AE8BA3B001D3C0B /* jsq_messages_splash_55inch_landscape.png */,
-				CE9F0AF91AE8BA3B001D3C0B /* jsq_messages_splash_55inch.png */,
-				CE9F0AFA1AE8BA3B001D3C0B /* jsq_messages_splash_ipad.png */,
-				CE9F0AFB1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x.png */,
-				CE9F0AFC1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x~landscape.png */,
-				CE9F0AFD1AE8BA3B001D3C0B /* jsq_messages_splash_ipad~landscape.png */,
-				CE9F0AFE1AE8BA3B001D3C0B /* leftarrow@2x.png */,
-				CE9F0AFF1AE8BA3B001D3C0B /* rightarrow@2x.png */,
-				CE9F0B001AE8BA3B001D3C0B /* slpash_iphone4inch.png */,
-				CE9F0B011AE8BA3B001D3C0B /* splash_iphone35inch.png */,
 				CE4D7F761AE8A6B6005A6DAE /* CustomPageViewController.h */,
 				CE4D7F771AE8A6B6005A6DAE /* CustomPageViewController.m */,
 				CE4D7F7B1AE8A6B6005A6DAE /* WalkthroughPageViewController.h */,
@@ -214,30 +166,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9F0B0B1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x.png in Resources */,
-				CE9F0B081AE8BA3B001D3C0B /* jsq_messages_splash_55inch_landscape.png in Resources */,
-				CE9F0B021AE8BA3B001D3C0B /* bg@2x.png in Resources */,
-				CE9F0B0F1AE8BA3B001D3C0B /* rightarrow@2x.png in Resources */,
 				CE9F0AE01AE8B0A8001D3C0B /* MainWindow.xib in Resources */,
 				CE9F0AE31AE8B0AF001D3C0B /* WalkThree.xib in Resources */,
-				CE9F0B0E1AE8BA3B001D3C0B /* leftarrow@2x.png in Resources */,
 				CE9F0AEF1AE8B10B001D3C0B /* WalkThroughViewController.xib in Resources */,
 				CE9F0AE91AE8B0DB001D3C0B /* WalkOne.xib in Resources */,
 				CE9F0AEC1AE8B0E2001D3C0B /* WalkTwo.xib in Resources */,
-				CE9F0B031AE8BA3B001D3C0B /* cloud1@2x.png in Resources */,
-				CE9F0B061AE8BA3B001D3C0B /* iPhoneScreen@2x.png in Resources */,
 				CE9F0AE61AE8B0D4001D3C0B /* WalkZero.xib in Resources */,
-				CE9F0B051AE8BA3B001D3C0B /* img3@2x.png in Resources */,
-				CE9F0B0C1AE8BA3B001D3C0B /* jsq_messages_splash_ipad@2x~landscape.png in Resources */,
-				CE9F0B091AE8BA3B001D3C0B /* jsq_messages_splash_55inch.png in Resources */,
 				CE4D7F611AE8A613005A6DAE /* LaunchScreen.xib in Resources */,
-				CE9F0B111AE8BA3B001D3C0B /* splash_iphone35inch.png in Resources */,
 				CE4D7F5E1AE8A613005A6DAE /* Images.xcassets in Resources */,
-				CE9F0B0A1AE8BA3B001D3C0B /* jsq_messages_splash_ipad.png in Resources */,
-				CE9F0B101AE8BA3B001D3C0B /* slpash_iphone4inch.png in Resources */,
-				CE9F0B071AE8BA3B001D3C0B /* jsq_messages_splash_47inch.png in Resources */,
-				CE9F0B0D1AE8BA3B001D3C0B /* jsq_messages_splash_ipad~landscape.png in Resources */,
-				CE9F0B041AE8BA3B001D3C0B /* cloud3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
