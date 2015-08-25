@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name            = 'CSWXIBWalkThrough'
   s.version         = '0.1.0'
-  s.license         = 'MIT'
+  s.license         = { :type => 'MIT' }
   s.platform        = :ios, '6.0'
 
   s.summary         = 'Walk through'
