@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>09CFB4E2-BE14-4EBC-8B4C-8A5C63F49389</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CSWXIBWalkThrough</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C59E7BC4E7F504CCFE63DC67BDB78894B2640993</key>
+		<string>https://github.com/n6xej/CSWXIBWalkThrough.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CSWXIBWalkThrough.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C59E7BC4E7F504CCFE63DC67BDB78894B2640993</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/n6xej/CSWXIBWalkThrough.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C59E7BC4E7F504CCFE63DC67BDB78894B2640993</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C59E7BC4E7F504CCFE63DC67BDB78894B2640993</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CSWXIBWalkThrough</string>
+		</dict>
+	</array>
+</dict>
+</plist>
