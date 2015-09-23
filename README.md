@@ -1,4 +1,5 @@
 # CSWXIBWalkThrough
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 An Objective-C clone of github/ariok/BWWalkthrough using only XIB files, no storyboards
 Yari D'areglia's project BWWalkthrough is implemented in Swift and is a very cool example of a walkthrough tutorial. I wanted to duplicate what he had done in Objective-C without using storyboards. I implemented the Objective-C version very closely to the Swift version, although I would eliminate some of the unneeded protocol functions that are not needed.
 
